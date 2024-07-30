@@ -1,0 +1,91 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+body{
+   
+    
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.img-container{
+    background-image: url('./project-images/plants.png');
+    display: flex;
+    align-items: center;
+}
+
+.img-logo{
+    background-color: #A4A4A4;
+    opacity: 90%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    padding: 50px 30px;
+}
+
+.form-container form{
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+.form-container button{
+    background-color: #0B6121;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 170px;
+}
+
+.form-container p{
+    margin-bottom:15px;
+}
+
+.form-input{
+    display:flex;
+    flex-direction: column;
+    padding-top:5px;
+    padding-bottom: 3px;
+}
+.form-input caption{
+    font-size: 8px;
+}
+.form-container input{
+    width: 150px;
+    border:1px solid #F2F2F2;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 8px;
+}
+
+.form-container input:focus{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
